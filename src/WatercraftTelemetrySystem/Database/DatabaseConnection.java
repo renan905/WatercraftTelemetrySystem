@@ -2,15 +2,10 @@ package WatercraftTelemetrySystem.Database;
 
 import com.db4o.Db4oEmbedded;
 import com.db4o.ObjectContainer;
-import com.db4o.ObjectSet;
 import com.db4o.ext.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class DatabaseConnection {
     static private final String DB4OFILENAME  = "WatercraftTelemetrySystemDatabase";
-
     private ObjectContainer Database;
 
     public ObjectContainer getDatabase() {

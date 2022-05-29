@@ -1,20 +1,18 @@
 package WatercraftTelemetrySystem.GeoLocation;
 
-import org.jetbrains.annotations.NotNull;
-
-import java.sql.Timestamp;
+import java.util.Objects;
 
 public class GeoLocationEntity {
     private String timestamp;
     private String geolocation;
 
-    public void copyFrom(@NotNull GeoLocationEntity source) {
+    public void copyFrom(GeoLocationEntity source) {
 
-        if(source.getGeolocation() != getGeolocation()) {
+        if(!Objects.equals(source.getGeolocation(), getGeolocation())) {
             setGeolocation(source.getGeolocation());
         }
 
-        if(source.getTimestamp()!= getTimestamp()) {
+        if(!Objects.equals(source.getTimestamp(), getTimestamp())) {
             setTimestamp(source.getTimestamp());
         }
     }
