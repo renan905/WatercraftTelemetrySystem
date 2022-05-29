@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec43acb-8df5-4864-ae03-6cca753163f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WatercraftTelemetrySystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/Database/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/Database/RepositoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/GeoLocation/GeoLocationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/GeoLocation/GeoLocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/WatercraftTelemetrySystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db4o-8.0.276.16149-all-java5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/Helpers/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatercraftTelemetrySystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WatercraftTelemetrySystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatercraftTelemetrySystemDatabase" beforeDir="false" afterPath="$PROJECT_DIR$/WatercraftTelemetrySystemDatabase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/GeoLocation/GeoLocationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/GeoLocation/GeoLocationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/GeoLocation/GeoLocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/GeoLocation/GeoLocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/WatercraftTelemetrySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WatercraftTelemetrySystem/WatercraftTelemetrySystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
