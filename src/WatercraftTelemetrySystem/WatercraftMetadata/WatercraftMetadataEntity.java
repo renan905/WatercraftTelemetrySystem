@@ -1,9 +1,7 @@
 package WatercraftTelemetrySystem.WatercraftMetadata;
 
-import WatercraftTelemetrySystem.GeoLocation.GeoLocationEntity;
 import WatercraftTelemetrySystem.Helpers.Vector2;
 
-import java.sql.Date;
 import java.util.Objects;
 
 public class WatercraftMetadataEntity {
